@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <h1>Tipos de Input</h1>
+
+    <label for="Nome">Nome</label>
+    <input type="text" name="nome" placeholder="Digite seu nome"><br><br>
+
+    <label for="number">Idade</label>
+    <input type="number" name="" placeholder="Digite sua idade"><br><br>
+
+    <label for="password">Senha</label>
+    <input type="password" name="" placeholder="Digite sua senha"><br><br>
+
+    <input type="submit" value="Salvar"><br><br>
+
+    <h2>Linguagens de programação</h2>
+
+    <label for="c#">C#</label>
+    <input type="checkbox" name="Linguagens" id="c#"><br>
+
+    <label for="javascript">Javascript</label>
+    <input type="checkbox" name="Linguagens" id="javascript"><br><br>
+
+    <h2>Gênero</h2>
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" id="masculino">
+
+    <label for="feminino">Feminino</label>
+    <input type="radio" name="genero" id="feminino"><br><br>
+    
+    <h2>Filmes</h2>
+
+    <label for="filmes">Filmes</label>
+    <select name="filmes" id="filmes">
+        <option value="">Selecione um filme</option>
+        <option value="Mad Max">Mad Max</option>
+        <option value="Star Wars">Star Wars</option>
+        <option value="Vingadores">Vingadores</option>
+        <option value="Harry Potter">Harry Potter</option>
+    </select><br><br>
+
+    <textarea name="text" cols="30" rows="10" placeholder="Escreva um resumo do filme selecionado"></textarea><br><br>
+
+    <input type="button" value="Clique aqui" onclick="Olá">
+</body>
+</html>
